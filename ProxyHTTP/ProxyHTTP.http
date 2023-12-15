@@ -1,0 +1,6 @@
+@ProxyHTTP_HostAddress = http://localhost:5277
+
+GET {{ProxyHTTP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
